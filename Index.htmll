@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>BRIDGE | Building Welcoming Communities</title>
+
+<style>
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+html {
+scroll-behavior: smooth;
+}
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.6;
+color: #1f2937;
+background: #f8fafc;
+}
+
+/* NAVIGATION */
+
+header {
+background: white;
+padding: 18px 7%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid #e5e7eb;
+position: sticky;
+top: 0;
+z-index: 100;
+}
+
+.logo {
+font-size: 1.7rem;
+font-weight: 900;
+letter-spacing: 3px;
+color: #173b70;
+}
+
+nav a {
+text-decoration: none;
+color: #374151;
+margin-left: 20px;
+font-weight: 600;
+}
+
+nav a:hover {
+color: #2563eb;
+}
+
+/* HERO */
+
+.hero {
+background: linear-gradient(135deg, #eaf3ff, #f8fbff);
+padding: 110px 7%;
+text-align: center;
+}
+
+.hero h1 {
+font-size: clamp(2.4rem, 6vw, 4.2rem);
+max-width: 900px;
+margin: 0 auto 25px;
+color: #173b70;
+}
+
+.hero p {
+max-width: 750px;
+margin: auto;
+font-size: 1.2rem;
+color: #4b5563;
+}
+
+.buttons {
+margin-top: 35px;
+}
+
+.button {
+display: inline-block;
+padding: 14px 26px;
+margin: 6px;
+border-radius: 8px;
+text-decoration: none;
+font-weight: bold;
+background: #2563eb;
+color: white;
+}
+
+.button:hover {
+transform: translateY(-1px);
+opacity: 0.9;
+}
+
+.button.secondary {
+background: white;
+color: #2563eb;
+border: 2px solid #2563eb;
+}
+
+/* GENERAL SECTIONS */
+
+section {
+padding: 80px 7%;
+max-width: 1200px;
+margin: auto;
+}
+
+section h2 {
+text-align: center;
+font-size: 2.2rem;
+margin-bottom: 15px;
+color: #173b70;
+}
+
+.intro {
+text-align: center;
+max-width: 760px;
+margin: 0 auto 45px;
+color: #4b5563;
+font-size: 1.05rem;
+}
+
+/* MISSION */
+
+.mission {
+background: white;
+max-width: none;
+}
+
+.mission-content {
+max-width: 800px;
+margin: auto;
+text-align: center;
+}
+
+.mission-content p {
+margin-bottom: 18px;
+}
+
+/* CARDS */
+
+.cards {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+gap: 22px;
+}
+
+.card {
+background: white;
+padding: 30px;
+border-radius: 14px;
+box-shadow: 0 5px 20px rgba(0,0,0,0.06);
+border: 1px solid #e5e7eb;
+}
+
+.card h3 {
+margin-bottom: 12px;
+color: #173b70;
+}
+
+.card p {
+color: #4b5563;
+}
+
+/* WHY BRIDGE */
+
+.values {
+background: #f1f6fc;
+max-width: none;
+}
+
+/* FUTURE */
+
+.future {
+background: white;
+max-width: none;
+text-align: center;
+}
+
+.future-content {
+max-width: 800px;
+margin: auto;
+}
+
+.future-content p {
+margin-bottom: 18px;
+color: #4b5563;
+}
+
+/* CTA */
+
+.cta {
+max-width: none;
+background: #173b70;
+color: white;
+text-align: center;
+}
+
+.cta h2 {
+color: white;
+}
+
+.cta p {
+max-width: 700px;
+margin: 20px auto;
+}
+
+/* CONTACT */
+
+.contact {
+text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+background: #111827;
+color: white;
+text-align: center;
+padding: 35px;
+}
+
+footer p {
+margin: 5px;
+}
+
+/* MOBILE */
+
+@media (max-width: 700px) {
+
+header {
+flex-direction: column;
+gap: 15px;
+}
+
+nav {
+text-align: center;
+}
+
+nav a {
+margin: 5px 8px;
+display: inline-block;
+}
+
+.hero {
+padding: 80px 6%;
+}
+
+section {
+padding: 65px 6%;
+}
+
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- NAVIGATION -->
+
+<header>
+
+<div class="logo">
+BRIDGE
+</div>
+
+<nav>
+<a href="#about">About</a>
+<a href="#help">Get Involved</a>
+<a href="#resources">Resources</a>
+<a href="#future">Our Vision</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+
+<!-- HERO -->
+
+<section class="hero">
+
+<h1>
+Building Bridges. Welcoming Communities.
+</h1>
+
+<p>
+BRIDGE is a community initiative connecting people with
+meaningful ways to support refugees and build stronger,
+more welcoming communities.
+</p>
+
+<div class="buttons">
+
+<a href="#help" class="button">
+Get Involved
+</a>
+
+<a href="#resources" class="button secondary">
+Find Ways to Help
+</a>
+
+</div>
+
+</section>
+
+
+<!-- ABOUT -->
+
+<section id="about" class="mission">
+
+<div class="mission-content">
+
+<h2>
+Our Mission
+</h2>
+
+<p>
+BRIDGE exists to connect people, communities, and
+organizations so that everyone can discover meaningful
+ways to support refugees.
+</p>
+
+<p>
+We believe that creating welcoming communities is
+something we can accomplish together.
+</p>
+
+<p>
+We're starting in Kansas, but our vision reaches
+far beyond one state.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- GET INVOLVED -->
+
+<section id="help">
+
+<h2>
+How Can You Help?
+</h2>
+
+<p class="intro">
+You don't have to be an expert or have a lot of resources
+to make a difference. Everyone can contribute something.
+</p>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>
+🤝 Volunteer
+</h3>
+
+<p>
+Give your time to community organizations,
+events, and projects supporting refugees.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+📚 Share Your Skills
+</h3>
+
+<p>
+Share skills such as tutoring, technology,
+language support, or other abilities.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+📦 Donate Items
+</h3>
+
+<p>
+Find organizations in your area that are
+currently collecting needed supplies.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+📣 Spread Awareness
+</h3>
+
+<p>
+Share accurate information and help others
+discover meaningful ways to get involved.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- RESOURCES -->
+
+<section id="resources" class="values">
+
+<h2>
+Find Ways to Help
+</h2>
+
+<p class="intro">
+We're building a resource hub to make it easier for people
+to find organizations and opportunities in their communities.
+</p>
+
+
+<div class="cards">
+
+
+<div class="card">
+
+<h3>
+📍 Local Opportunities
+</h3>
+
+<p>
+Discover organizations and community opportunities
+near where you live.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🌎 Global Opportunities
+</h3>
+
+<p>
+Explore ways to support refugee communities
+beyond your local area.
+</p>
+
+</div>
+
+
+<div class="card">
+
+<h3>
+🏢 Organizations
+</h3>
+
+<p>
+Connect with organizations working to create
+welcoming and supportive communities.
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<!-- FUTURE -->
+
+<section id="future" class="future">
+
+<div class="future-content">
+
+<h2>
+Starting Local. Thinking Global.
+</h2>
+
+<p>
+BRIDGE is beginning with a small team and a simple goal:
+make it easier for people to find ways to help.
+</p>
+
+<p>
+As we grow, we hope to connect communities across
+Kansas, the United States, and eventually around the world.
+</p>
+
+<p>
+Our goal is to build bridges between people who want
+to help and communities where that help can make a difference.
+</p>
+
+</div>
+
+</section>
+
+
+<!-- CALL TO ACTION -->
+
+<section class="cta">
+
+<h2>
+Be Part of the Bridge
+</h2>
+
+<p>
+Whether you have time, skills, ideas, or simply want to learn,
+there is a place for you in building a more welcoming community.
+</p>
+
+<a href="#contact" class="button">
+Connect With BRIDGE
+</a>
+
+</section>
+
+
+<!-- CONTACT -->
+
+<section id="contact" class="contact">
+
+<h2>
+Connect With Us
+</h2>
+
+<p class="intro">
+Interested in volunteering, sharing an idea, partnering
+with BRIDGE, or helping us grow?
+</p>
+
+<p>
+Email:
+<strong>YOUR EMAIL HERE</strong>
+</p>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+<p>
+<strong>BRIDGE</strong>
+</p>
+
+<p>
+Building Bridges. Welcoming Communities.
+</p>
+
+<p>
+© 2026 BRIDGE
+</p>
+
+</footer>
+
+
+</body>
+</html>
